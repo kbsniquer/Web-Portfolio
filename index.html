@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Raleway&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css" />
+  <title>Karen Sniquer</title>
+</head>
+
+<body>
+  <header>
+    <nav class="topnav">
+      <div class="home"><a href="#home">Karen Sniquer</a></div>
+      <div id="nav-links">
+        <a href="#">PORTFOLIO</a>
+        <a href="#">RESUME</a>
+        <a href="#">SERVICES</a>
+        <a href="#">CONTACT</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <span class="hamburger">
+          <div></div>
+          <div></div>
+          <div></div>
+        </span>
+      </a>
+    </nav>
+    </nav>
+  </header>
+
+  <div class="main">
+    <div class="about-wrapper">
+      <div class="about">
+        <h1 class="home-title">
+          <span>Hello, my name is Karen Sniquer,</span>
+          <span>& I'm a front-end developer.</span>
+        </h1>
+        <p></p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="cat-container">
+        <div class="grid-item">
+          <img src="./images/webdev.jpg" alt="" class="image" />
+        </div>
+        <div class="overlay">
+          <div class="text">Web Development</div>
+        </div>
+      </div>
+      <div class="cat-container">
+        <div class="grid-item">
+          <img src="./images/graphicdesign.jpg" alt="" class="image" />
+        </div>
+        <div class="overlay">
+          <div class="text">Graphic Design</div>
+        </div>
+      </div>
+      <div class="cat-container">
+        <div class="grid-item">
+          <img src="./images/painting.jpg" alt="" class="image" /></div>
+        <div class="overlay">
+          <div class="text">Drawing & Painting</div>
+        </div>
+      </div>
+      <div class="cat-container">
+        <div class="grid-item">
+          <img src="./images/print.jpg" alt="" class="image" />
+        </div>
+        <div class="overlay">
+          <div class="text">Printmaking</div>
+        </div>
+      </div>
+    </div>
+
+    <section class="featured-projects">
+      <h1>Featured Projects</h1>
+      <div class="project-wrapper">
+      <div class="project">
+        <img src="./images/ViciousCycles.png" alt="Mockup of home page for fictional bike shop Vicious Cycles"/>
+        <div class="project-box">
+        <h2>Vicious Cycles</h2>
+          <p>As a school project, I re-imagined & developed a local bicycle shop's website, with a fresh & responsive design. I created several webpages for their website with vanilla HTML5 & CSS3.</p>
+          <button class="btn" style="animation-delay:0.07s">VIEW MORE</button>
+        </div>
+      </div>
+
+      <div class="project">
+        <img src="./images/Innisbrook.png" alt="Home page of wrapping paper company Innisbrook"/>
+        <div class="project-box">
+        <h2>Innisbrook Wraps</h2>
+          <p>As their main designer, I research, draft, & design Innisbrook's website & marketing content. I create the banners, icons, & graphics for their Shopify website, as well as their e-blasts & print marketing.</p>
+          <button class="btn" style="animation-delay:0.07s">VIEW MORE</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <section class="resume-sample">
+      <h1>Professional Experience</h1>
+      <div class="project-wrapper">
+          <div class="experiece">
+            <h3>Production Assistant</h3>
+            <p>01/2017 - Present</p>
+            <p>
+              Manages the production schedule at the print shop. Prepares
+              projects for production in the pre-press stage. Communicates and
+              coordinates with clients.
+            </p>
+            <p>Skills:</p>
+            <ul>
+              <li>Pre-press preparation</li>
+              <li>Managing production schedules</li>
+              <li>Communicating and coordinating with clients</li>
+            </ul>
+          </div>
+
+          <div class="experiece">
+            <h3>Graphic Designer</h3>
+            <p>01/2016 - Present</p>
+            <p>
+              Planning & e-marketing campaigns for
+              clients, using Adobe CC (Illustrator, Photoshop, & InDesign).
+            </p>
+            <p>Skills:</p>
+            <ul>
+              <li>Marketing planning</li>
+              <li>Graphic & Web Design</li>
+              <li>Communicating and coordinating with clients</li>
+            </ul>
+          </div>
+      </div>
+      <div class="view-resume">
+        <button class="btn"><a href="#">View Full resume</a></button>
+      </div>
+    </section>
+
+    <footer>
+      <div class="wrapper">
+        <div class="social-footer">
+          <div class="social-links">
+            <h2>LET'S STAY IN TOUCH</h2>
+            <a href="#"><img src="./images/LinkedIn.png" alt="LinkedIn" /></a>
+            <a href="#"><img src="./images/Github.png" alt="Github" /></a>
+            <a href="#"><img src="./images/Twitter.png" alt="Twitter" /></a>
+            <a href="#"><img src="./images/Email.png" alt="Email" /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+
+<script>
+  function myFunction() {
+    var x = document.getElementById("nav-links");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+</script>
+
+</html>
